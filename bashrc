@@ -10,6 +10,7 @@
 
 alias vim="nvim"
 alias nv="nvim"
+alias l="light -S"
 
 export XDG_DATA_HOME=${XDG_DATA_HOME:="$HOME/.local/share"}
 export XDG_CACHE_HOME=${XDG_CACHE_HOME:="$HOME/.cache"}
@@ -17,8 +18,9 @@ export XDG_CONFIG_HOME=${XDG_CONFIG_HOME:="$HOME/.config"}
 export XDG_STATE_HOME=${XDG_STATE_HOME:="$HOME/.local/state"}
 
 export GTK2_RC_FILES="$XDG_CONFIG_HOME"/gtk-2.0/gtkrc
-export HISTFILE="${XDG_STATE_HOME}"/bash/history
-export PULSE_COOKIE="${XDG_CONFIG_HOME}"/pulse/cookie
+export HISTFILE="$XDG_STATE_HOME"/bash/history
+export PULSE_COOKIE="$XDG_CONFIG_HOME"/pulse/cookie
+export CUDA_CACHE_PATH="$XDG_CACHE_HOME"/nv
 
 export EDITOR="nvim"
 export TERMINAL="alacritty"
