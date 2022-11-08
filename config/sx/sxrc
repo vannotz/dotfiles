@@ -1,6 +1,6 @@
 wireplumber &
 pipewire &
 pipewire-pulse &
-hsetroot -cover /home/joao/Pictures/wallpapers/furry.jpg
+hsetroot -cover /home/joao/Pictures/wallpapers/furry.jpg &
 exec slstatus &
 exec dwm
