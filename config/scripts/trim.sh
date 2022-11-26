@@ -1,4 +1,2 @@
 #!/bin/sh
-fstrim /
-fstrim /home
-fstrim /var
+fstrim -a
