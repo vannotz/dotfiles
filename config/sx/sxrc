@@ -1,4 +1,5 @@
-snooze -H22 -M30 -- /home/joao/.config/scripts/trim.sh &
+hsetroot -cover /usr/local/wallpaper/oneshot.png &
+/home/.config/scripts/alsa.sh &
+/home/.config/scripts/trim.sh &
 exec slstatus &
-hsetroot -cover /usr/share/wallpaper/oneshot.png &
 exec dwm
