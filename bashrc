@@ -8,8 +8,6 @@
 # alias ls='ls --color=auto'
 # PS1='[\u@\h \W]\$ '
 
-alias vim="nvim"
-alias nv="nvim"
 alias l="light -S"
 
 export XDG_DATA_HOME=${XDG_DATA_HOME:="$HOME/.local/share"}
