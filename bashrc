@@ -20,7 +20,7 @@ export HISTFILE="$XDG_STATE_HOME"/bash/history
 export PULSE_COOKIE="$XDG_CONFIG_HOME"/pulse/cookie
 export CUDA_CACHE_PATH="$XDG_CACHE_HOME"/nv
 
-export EDITOR="nvim"
+export EDITOR="vim"
 export TERMINAL="alacritty"
 export BROWSER="librewolf"
 export VIDEO="mpv"
